@@ -1,6 +1,6 @@
 import pytest
 import allure
-from src_example.main import get_triangle_type, TriangleType
+from src.main import get_triangle_type, TriangleType
 
 DEBUG_TRIANGLE_CLASS = True
 
