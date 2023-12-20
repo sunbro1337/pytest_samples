@@ -5,7 +5,7 @@ import os
 allure_dir = os.path.join(".", 'allure')
 
 print("Running tests...")
-os.system(f"pytest.exe test_example --alluredir {allure_dir}")
+os.system(f"pytest.exe test --alluredir {allure_dir}")
 
 print("Generating report...")
 os.system(f"allure serve {allure_dir}")
